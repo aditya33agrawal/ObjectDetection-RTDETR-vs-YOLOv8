@@ -9,7 +9,7 @@ import argparse
 
 # Initialize argument parser
 parser = argparse.ArgumentParser(description="Object Detection using RT-DETR")
-parser.add_argument("--model_name", default="rtdetr-l.pt", type=str, help="Model name to load for RT-DETR")
+parser.add_argument("--model_name", default="yolov8-l.pt", type=str, help="Model name to load for YOLOv8")
 parser.add_argument("--input_video", required=True, type=str, help="Path to input video file")
 parser.add_argument("--output_path", default="output_video_yolov8-l.avi", type=str, help="Path to save the output video")
 args = parser.parse_args()
