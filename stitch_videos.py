@@ -49,4 +49,4 @@ def stitch_videos(video_path1, video_path2, output_path):
     out.release()
 
 # Use the function
-stitch_videos('output_video_rt-detr-l.avi', 'output_video_yolov8-l.avi', 'comparison_video.avi')
+stitch_videos('/content/drive/MyDrive/output_video_rt-detr-l.avi', '/content/drive/MyDrive/output_video_yolov8-l.avi', 'comparison_video.avi')
